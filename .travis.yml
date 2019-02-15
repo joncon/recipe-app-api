@@ -1,10 +1,10 @@
-lanaguage: python
+language: python
 python:
   - "3.6"
 services:
   - docker
 before_script:
-  - pip3 install docker-compose
+  - pip install docker-compose
 
 script:
   -docker-compose run app sh -c "python manage.py test && flake8"
