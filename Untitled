@@ -1,0 +1,12 @@
+2019-03-07T20:37:11Z docker time="2019-03-07T20:37:11.834784913Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4202123f0, TRANSIENT_FAILURE" module=grpc
+2019-03-07T20:37:11Z docker time="2019-03-07T20:37:11.834798360Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4202123f0, CONNECTING" module=grpc
+2019-03-07T20:37:12Z docker + curl --unix-socket /var/run/docker.sock http/info
+2019-03-07T20:37:12Z docker + grep -i ServerVersion
+2019-03-07T20:37:12Z docker   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2019-03-07T20:37:12Z docker                                  Dload  Upload   Total   Spent    Left  Speed
+2019-03-07T20:37:12Z docker
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Error starting daemon: error initializing graphdriver: driver not supported
+2019-03-07T20:37:12Z docker
+  0     0    0     0    0     0      0    +   0 failed_to_start--
+2019-03-07T20:37:12Z docker :--:-- --:--:-- --:--:--     0
+2019-03-07T20:37:12Z docker curl: (56) Recv failure: Connection reset by peer
